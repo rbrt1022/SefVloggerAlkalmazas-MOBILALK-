@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "202128744742",
+    "project_id": "chefvlogger-63c5d",
+    "storage_bucket": "chefvlogger-63c5d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202128744742:android:d0116b685c1133a497e1e7",
+        "android_client_info": {
+          "package_name": "com.example.chefvlogosss"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByXimH--6m-KJCBlyLauPqrwavB-b7ovo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

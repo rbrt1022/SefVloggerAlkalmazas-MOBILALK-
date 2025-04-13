@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_vlog">
+
+    <fragment
+        android:id="@+id/nav_vlog"
+        android:name="com.example.chefvlogosss.ui.transform.TransformFragment"
+        android:label="@string/vlogok"
+        tools:layout="@layout/fragment_transform" />
+
+    <!--activity
+        android:id="@+id/reg_nav"
+        android:name="com.example.chefvlogosss.ui.login.RegisterActivity"
+        android:label="Registration"
+        tools:layout="@layout/activity_register" /-->
+
+    <fragment
+        android:id="@+id/nav_bej"
+        android:name="com.example.chefvlogosss.ui.login.LoginFragment"
+        android:label="@string/bejelentkezes"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/bejelentkezveMenjelVlogokra"
+            app:destination="@id/nav_vlog" />
+    </fragment>
+</navigation>
