@@ -37,4 +37,10 @@
     <string name="jelszo">Jelszo</string>
     <string name="regiszr_ci">Regiszráció</string>
     <string name="regisztralodja">Regisztrálj!</string>
+    <string name="title_activity_upload">UploadActivity</string>
+    <string name="vlogtitle">Vlog címe</string>
+    <string name="vloglink">Vlog linkje</string>
+    <string name="feltoltes">Feltoltes</string>
+    <string name="title_activity_vlog_upload">VlogUploadActivity</string>
+    <string name="back">VISSZA</string>
 </resources>

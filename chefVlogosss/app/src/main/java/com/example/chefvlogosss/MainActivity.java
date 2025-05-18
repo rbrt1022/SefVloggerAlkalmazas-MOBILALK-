@@ -6,6 +6,7 @@ import android.view.Menu;
 import android.view.View;
 
 import com.example.chefvlogosss.ui.login.RegisterActivity;
+import com.example.chefvlogosss.ui.upload.VlogUploadActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
@@ -80,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void hozzaadas(View view) {
-        Intent intent = new Intent(this, RegisterActivity.class);
+        Intent intent = new Intent(this, VlogUploadActivity.class);
 
         startActivity(intent);
         this.overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);

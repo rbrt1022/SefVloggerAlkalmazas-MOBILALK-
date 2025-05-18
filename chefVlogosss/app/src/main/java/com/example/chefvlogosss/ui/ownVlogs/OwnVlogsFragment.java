@@ -1,9 +1,8 @@
-package com.example.chefvlogosss.ui.transform;
+package com.example.chefvlogosss.ui.ownVlogs;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-import java.util.ArrayList;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,7 +10,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.core.content.res.ResourcesCompat;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.DiffUtil;
 import androidx.recyclerview.widget.ListAdapter;
@@ -25,6 +23,7 @@ import com.example.chefvlogosss.databinding.ItemTransformBinding;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -33,7 +32,7 @@ import java.util.List;
  * the [RecyclerView] using LinearLayoutManager in a small screen
  * and shows items using GridLayoutManager in a large screen.
  */
-public class TransformFragment extends Fragment {
+public class OwnVlogsFragment extends Fragment {
 
     private FragmentTransformBinding binding;
 
